@@ -1,0 +1,17 @@
+{
+  "name": "teens-club-app",
+  "version": "1.0.0",
+  "description": "Teen's Club Church Registration System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build:all": "npm run build:backend && npm run build:frontend",
+    "electron:dev": "cd electron && npm run dev",
+    "electron:build": "npm run build:all && cd electron && npm run build",
+    "start:server": "cd backend && npm start"
+  }
+}
